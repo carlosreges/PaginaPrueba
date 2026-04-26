@@ -2,7 +2,7 @@
   "name": "landing-odontologia",
   "version": "1.0.0",
   "scripts": {
-    "build": "tailwindcss -i ./style.css -o ./main.css --minify"
+    "build": "tailwindcss -c ./tailwind.config.js -i ./style.css -o ./main.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
